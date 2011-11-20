@@ -1,5 +1,37 @@
-http://wiki.apache.org/jakarta-lucene/SpellChecker
+ABSTRACT
+
+Content moderation is widely used today. It's not a simple task, and there are several third party
+companies which provide these kind of services.
+
+Trying to automate this is a tricky task.
+The idea of this project is to use Machine Learning (ML) techniques to do such classification.
+Some ML methods ara capable to "learn" new patterns (like neural networks and logistic regression)
+
+That's exactly what it's required for this problem. Imagine trying to block a word like "badword".
+Using a dictionary of regexes will solve the problem for the trivial case. People can start using numbers
+for vocals, etc.
+
+
+So, ML sounds promising. An API can be created to get input from external systems
+and keep improving the classification algorithm automatically.
+
+
+Of course, such solution is not easy. But, it's worth to try.
+
+
+
+IMPORTANT
+
+This is a exploration project and it's far for being production ready!!!
+
+
+
+
+RELATED STUFF
+
 
 http://www.cs.cmu.edu/~biglou/resources/
 
 http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5617090
+
+http://wiki.apache.org/jakarta-lucene/SpellChecker
